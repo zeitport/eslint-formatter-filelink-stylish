@@ -1,6 +1,6 @@
 {
     "name": "eslint-formatter-filelink-stylish",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "This ESLint formatter is a modifications of the stylish formatter to support autolinkable filepaths.",
     "main": "index.js",
     "files": [
@@ -9,7 +9,7 @@
         "README.md"
     ],
     "scripts": {
-        "test": "npx jest",
+        "test": "node ./test/formatterTest.js",
         "prepublish": "npm run test"
     },
     "repository": {
