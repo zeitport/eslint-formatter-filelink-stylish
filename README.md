@@ -25,7 +25,7 @@ or via nodejs
 'use strict';
 
 const CLIEngine = require('eslint').CLIEngine;
-const formatter = require('../index');
+const formatter = require('eslint-formatter-filelink-stylish');
 
 const cli = new CLIEngine({
     useEslintrc: true,
