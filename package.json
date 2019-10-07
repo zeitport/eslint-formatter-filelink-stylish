@@ -1,0 +1,35 @@
+{
+    "name": "eslint-formatter-filelink-stylish",
+    "version": "1.0.0",
+    "description": "This ESLint formatter is a modifications of the stylish formatter to support autolinkable filepaths.",
+    "main": "index.js",
+    "files": [
+        "index.js",
+        "LICENSE",
+        "README.md"
+    ],
+    "scripts": {
+        "test": "npx jest",
+        "prepublish": "npm run test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zeitport/eslint-formatter-filelink-stylish.git"
+    },
+    "keywords": [
+        "eslint",
+        "eslint-formatter",
+        "eslintformatter",
+        "terminal",
+        "WebStorm"
+    ],
+    "author": "Christian Schuller <cschuller@servusalps.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/zeitport/eslint-formatter-webstorm/issues"
+    },
+    "homepage": "https://github.com/zeitport/eslint-formatter-webstorm#readme",
+    "devDependencies": {
+        "eslint": "^6.5.1"
+    }
+}
