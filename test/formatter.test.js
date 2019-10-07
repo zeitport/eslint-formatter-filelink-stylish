@@ -8,7 +8,6 @@ test('fromatter uses full filepath with line number', () => {
     // Given
     const cli = new CLIEngine({
         useEslintrc: true,
-        reportUnusedDisableDirectives: true,
         cwd:__dirname
     });
     const report = cli.executeOnFiles(['example.js']);
